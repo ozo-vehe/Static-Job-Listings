@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel= "stylesheet" href= "style.css" />
+  <link href= "https://fonts.googleapis.com/css2?family=Spartan&display=swap" rel= "stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Job Listings</title>
+</head>
+<body>
+  <header>
+    <img src="images/bg-header-desktop.svg" alt="">
+  </header>
+
+  <section>
+
+    <div id="filter">
+      <div id= "categories">
+
+      <div class= "category" id= "role">
+        <span id= "roleFilter"></span><img class= "close-icn" src="" alt="">
+      </div>
+      
+      <div class= "category" id="level">
+        <span id= "levelFilter"></span><img class= "close-icn" src="" alt="">
+      </div>
+      
+      <div class= "category" id="languages">
+        <span id= "languagesFilter"></span><img class= "close-icn" src="" alt="">
+      </div>
+
+      <div class= "category" id="tools">
+        <span id= "toolsFilter"></span><img class= "close-icn" src="" alt="">
+      </div>
+
+      </div> 
+
+      <p>clear</p>
+    </div>
+
+    <div id="userOne" class="users" data-role = "frontend" data-level= "senior" data-languages= "html javascript css" data-tools= "" >
+      <img src="./images/photosnap.svg" alt="user image" class= "profiles">
+
+      <div class="usersInfo">
+
+        <div class= "companyInfo">
+          <div class="info">
+            <h2 class="company">Photosnap</h2>
+            <h2 class="new">new!</h2>
+            <h2 class="featured">featured</h2>
+          </div>
+
+          <div class="info">
+            <h2 class= "position">Senior Frontend Developer</h2>
+          </div>
+
+          <div class="info">
+            <p class= "postedAt">1d ago</p>
+            <p class= "contract">Full Time</p>
+            <p class= "location">USA Only</p>
+          </div>
+        </div>
+
+        <div class= "userSkills">
+          <p class="role">Frontend</p>
+          <p class="level">Senior</p>
+          <p class="languages">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Javascript</span>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="userTwo" class="users" data-role= "fullstack" data-level= "midweight" data-languages= "python" data-tools= "react">
+      <img src="./images/manage.svg" alt="user image" class= "profiles">
+  
+      <div class="usersInfo">
+  
+        <div class= "companyInfo">
+          <div class="info">
+            <h2 class="company">Manage</h2>
+            <h2 class="new">new!</h2>
+            <h2 class="featured">featured</h2>
+          </div>
+  
+          <div class="info">
+            <h2 class= "position">Fullstack Developer</h2>
+          </div>
+          
+          <div class="info">
+            <p class= "postedAt">1d ago</p>
+            <p class= "contract">Part Time</p>
+            <p class= "location">Remote</p>
+          </div>
+        </div>
+  
+        <div class= "userSkills">
+          <p class="role">Fullstack</p>
+          <p class="level">Midweight</p>
+          <p class="languages">
+            <span>Python</span>
+          </p>
+          <p class="tools">
+            <span>React</span>
+          </p>
+        </div>
+  
+      </div>
+    </div>
+
+
+    <div id="userThree" class="users" data-role= "frontend" data-level= "junior" data-languages= "javascript" data-tools= "react sass">
+      <img src="./images/account.svg" alt="user image" class= "profiles">
+    
+      <div class="usersInfo">
+   
+        <div class= "companyInfo">
+          <div class="info">
+            <h2 class="company">Account</h2>
+            <h2 class="new">new!</h2>
+          </div>
+    
+          <div class="info">
+            <h2 class= "position">Junior Frontend Developer</h2>
+          </div>
+            
+          <div class="info">
+            <p class= "postedAt">2d ago</p>
+            <p class= "contract">Part Time</p>
+            <p class= "location">USA only</p>
+          </div>
+        </div>
+   
+        <div class= "userSkills">
+          <p class="role">Frontend</p>
+          <p class="level">Junior</p>
+          <p class="languages">
+            <span>JavaScript</span>
+          </p>
+          <p class="tools">
+            <span>React</span>
+            <span>Sass</span>
+          </p>
+        </div>
+    
+      </div>
+    </div>
+    
+
+    <div id="userFour" class="users" data-role= "frontend" data-level= "junior" data-languages= "javascript css" data-tools= "" >
+      <img src="./images/myhome.svg" alt="user image" class= "profiles">
+    
+      <div class="usersInfo">
+   
+        <div class= "companyInfo">
+          <div class="info">
+            <h2 class="company">MyHome</h2>
+          </div>
+    
+          <div class="info">
+            <h2 class= "position">Junior Frontend Developer</h2>
+          </div>
+          
+          <div class="info">
+            <p class= "postedAt">5d ago</p>
+            <p class= "contract">Contract</p>
+            <p class= "location">USA only</p>
+          </div>
+        </div>
+
+        <div class= "userSkills">
+          <p class="role">Frontend</p>
+          <p class="level">Junior</p>
+          <p class="languages">
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </p>
+        </div>
+    
+      </div>
+    </div>
+
+
+    <div id="userFive" class="users" data-role= "fullstack" data-level= "midweight" data-languages= "javascript ruby" data-tools= "sass" >
+      <img src="./images/loop-studios.svg" alt="user image" class= "profiles">
+    
+      <div class="usersInfo">
+        <div class= "companyInfo">
+          <div class="info">
+            <h2 class="company">Loop Studios</h2>
+          </div>
+    
+          <div class="info">
+            <h2 class= "position">Software Engineer</h2>
+          </div>
+            
+          <div class="info">
+            <p class= "postedAt">1w ago</p>
+            <p class= "contract">Full Time</p>
+            <p class= "location">Worldwide</p>
+          </div>
+        </div>
+    
+        <div class= "userSkills">
+          <p class="role">Fullstack</p>
+          <p class="level">Midweight</p>
+          <p class="languages">
+            <span>JavaScript</span>
+            <span>Ruby</span>
+          </p>
+          <p class="tools">
+            <span>Sass</span>
+          </p>
+        </div>
+    
+      </div>
+    </div>
+
+
+
+    <div id="userSix" class="users" data-role= "backend" data-level= "junior" data-languages= "ruby" data-tools= "ror" >
+      <img src="./images/faceit.svg" alt="user image" class= "profiles">
+      
+      <div class="usersInfo">
+  
+        <div class= "companyInfo">
+          <div class="info">
+            <h2 class="company">FaceIt</h2>
+          </div>
+      
+          <div class="info">
+            <h2 class= "position">Junior Backend Developer</h2>
+          </div>
+              
+          <div class="info">
+            <p class= "postedAt">2w ago</p>
+            <p class= "contract">Full Time</p>
+            <p class= "location">UK only</p>
+          </div>
+        </div>
+      
+        <div class= "userSkills">
+          <p class="role">Backend</p>
+          <p class="level">Junior</p>
+          <p class="languages">
+            <span>Ruby</span>
+          </p>
+          <p class="tools">
+            <span>RoR</span>
+          </p>
+        </div>
+      
+      </div>
+    </div>
+        
+        
+    <div id="userSeven" class="users" data-role= "frontend" data-level= "junior" data-languages= "html javascript" data-tools= "sass">
+      <img src="./images/shortly.svg" alt="user image" class= "profiles">
+        
+      <div class="usersInfo">
+       
+        <div class= "companyInfo">
+          <div class="info">
+            <h2 class="company">Shortly</h2>
+          </div>
+        
+          <div class="info">
+            <h2 class= "position">Junior Developer</h2>
+          </div>
+                
+            <div class="info">
+            <p class= "postedAt">2w ago</p>
+            <p class= "contract">Full Time</p>
+            <p class= "location">Worldwide</p>
+          </div>
+        </div>
+        
+        <div class= "userSkills">
+          <p class="role">Frontend</p>
+          <p class="level">Junior</p>
+          <p class="languages">
+            <span>HTML</span>
+            <span>JavaScript</span>
+          </p>
+          <p class="tools">
+            <span>Sass</span>
+          </p>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <div id="userEight" class="users" data-role= "frontend" data-level= "junior" data-languages= "javascript" data-tools= "vue sass" >
+      <img src="./images/insure.svg" alt="user image" class= "profiles">
+          
+      <div class="usersInfo">
+   
+        <div class= "companyInfo">
+          <div class="info">
+            <h2 class="company">Insure</h2>
+          </div>
+          
+            <div class="info">
+            <h2 class= "position">Junior Frontend Developer</h2>
+          </div>
+                  
+          <div class="info">
+            <p class= "postedAt">2w ago</p>
+            <p class= "contract">Full Time</p>
+            <p class= "location">USA only</p>
+          </div>
+        </div>
+          
+        <div class= "userSkills">
+          <p class="role">Frontend</p>
+          <p class="level">Junior</p>
+          <p class="languages">
+            <span>JavaScript</span>
+          </p>
+          <p class="tools">
+            <span>Vue</span>
+            <span>Sass</span>
+          </p>
+        </div>
+          
+      </div>
+    </div>
+
+
+
+    <div id="userNine" class="users" data-role= "fullstack" data-level= "midweight" data-languages= "javascript pyhton" data-tools= "django" >
+      <img src="./images/eyecam-co.svg" alt="user image" class= "profiles">
+            
+      <div class="usersInfo">
+            
+        <div class= "companyInfo">
+          <div class="info">
+            <h2 class="company">Eyecam Co.</h2>
+          </div>
+            
+          <div class="info">
+            <h2 class= "position">Full Stack Engineer</h2>
+          </div>
+                    
+          <div class="info">
+            <p class= "postedAt">3w ago</p>
+            <p class= "contract">Full Time</p>
+            <p class= "location">Worldwide</p>
+          </div>
+        </div>
+            
+        <div class= "userSkills">
+          <p class="role">Fullstack</p>
+          <p class="level">Midweight</p>
+          <p class="languages">
+            <span>JavaScript</span>
+            <span>Python</span>
+          </p>
+          <p class="tools">
+            <span>Django</span>
+          </p>
+        </div>
+            
+      </div>
+    </div>
+
+
+
+
+    <div id="userTen" class="users" data-role= "frontend" data-level= "junior" data-languages= "javascript" data-tools= "react sass" >
+        <img src="./images/the-air-filter-company.svg" alt="user image" class= "profiles">
+              
+        <div class="usersInfo">
+              
+          <div class= "companyInfo">
+          <div class="info">
+            <h2 class="company">The Air Filter Company</h2>
+          </div>
+            
+          <div class="info">
+            <h2 class= "position">Front-end Dev</h2>
+          </div>
+                      
+          <div class="info">
+            <p class= "postedAt">1mo ago</p>
+            <p class= "contract">Part Time</p>
+            <p class= "location">Worldwide</p>
+          </div>
+        </div>
+              
+        <div class= "userSkills">
+          <p class="role">Frontend</p>
+          <p class="level">Junior</p>
+          <p class="languages">
+            <span>JavaScript</span>
+          </p>
+          <p class="tools">
+            <span>React</span>
+            <span>Sass</span>
+          </p>
+        </div>
+              
+      </div>
+    </div>          
+  </section>
+
+  <script src= "jobListing.js"></script>
+</body>
+</html>
